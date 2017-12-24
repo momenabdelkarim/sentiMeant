@@ -1,5 +1,2 @@
 $ cat .gitattributes
-*.rb linguist-language1=Python
-*.rb linguist-language2=Flask
-*.rb linguist-language3=CSS
-*.rb linguist-language4=HTML
+*.rb linguist-language=Python
