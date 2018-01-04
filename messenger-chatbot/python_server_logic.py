@@ -12,8 +12,8 @@ import operator
 
 def analyze_tone(message):
     tone_analyzer = ToneAnalyzerV3(
-        username='31eed5f3-58e0-4739-a633-fa9cdb652848',
-        password='lJA5jjWG02iC',
+        username='found in your IBM Watson dashboard',
+        password='found in your IBM Watson dashboard',
         version='2016-05-19'
     )
 
@@ -135,8 +135,8 @@ import json
 app = Flask(__name__)
 
 # Tokens from the Facebook page web hooks
-ACCESS_TOKEN = "EAACyXvTVM0UBAAZAgWuyPUrAg4BAhglAOBra4hKc0ZA8hoU4Py7gnqQnwA3gZAkvaIpOZCOtLr0EeeFyxHSc35dN30WjLTBINpagIL3qnrb6JIxDrMGaMm9kZCpZAIjlagNtHV5qJHguRgwwp10zMdp81Ec7eul5TGZBjPEfXeI8wZDZD"
-VERIFY_TOKEN = "secret"
+ACCESS_TOKEN = "found in your Facebook Page dashboard"
+VERIFY_TOKEN = "found in your Facebook Page dashboard"
 
 # method to reply to a message from the sender
 def reply(user_id, msg):
